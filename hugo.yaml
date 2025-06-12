@@ -10,12 +10,19 @@ caches:
   images:
     dir: :cacheDir/images
 
+markup:
+  highlight:
+    noClasses: true
+    style: catppuccin-latte
+    lineNos: true
+
 pagination:
     pagerSize: 5
 
 params:
     author: 'gandarez'
     showPowerBy: false
+    enableGoogleAnalytics: true
     social:
         github: https://github.com/gandarez
         linkedin: https://www.linkedin.com/in/gandarez
