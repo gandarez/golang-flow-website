@@ -1,0 +1,17 @@
+baseURL: https://gandarez.dev/
+languageCode: en-us
+defaultContentLanguage: en
+title: Golang Flow
+theme: mini
+
+pagination:
+    pagerSize: 5
+
+params:
+    author: 'gandarez'
+    showPowerBy: false
+    social:
+        github: https://github.com/gandarez
+        linkedin: https://www.linkedin.com/in/gandarez
+    description: 'Aprenda Golang no flow.'
+    keywords: 'golang, programming, technology, blog'
