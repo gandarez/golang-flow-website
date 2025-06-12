@@ -6,6 +6,10 @@ theme: mini
 
 googleAnalytics: 'G-YWRB75GQVV'
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 pagination:
     pagerSize: 5
 
