@@ -4,6 +4,8 @@ defaultContentLanguage: en
 title: Golang Flow
 theme: mini
 
+googleAnalytics: 'G-YWRB75GQVV'
+
 pagination:
     pagerSize: 5
 
