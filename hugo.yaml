@@ -12,8 +12,8 @@ caches:
 
 markup:
   highlight:
-    noClasses: true
-    style: catppuccin-latte
+    noClasses: false
+    style: rose-pine-dawn
     lineNos: true
 
 pagination:

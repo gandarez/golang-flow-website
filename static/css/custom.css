@@ -1,0 +1,8 @@
+.content :not(pre) > code {
+  background-color: #f4f4f4;
+  color: #d63384;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.95em;
+}
