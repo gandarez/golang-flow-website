@@ -1,5 +1,4 @@
 +++
-draft = true
 date = '2025-06-13'
 title = 'Testes unitários para salvar sua vida - Parte 1'
 author = 'Carlos Henrique Guardão Gandarez'
@@ -10,11 +9,11 @@ summary = 'Pular os testes unitários é igual pular o dia de pernas na academia
 
 ## Sumário
 
-1. [Introdução](#testes-unitários-para-salvar-sua-vida---parte-1)
+1. [Introdução](#testes-unitários-para-salvar-sua-vida)
 2. [O que são testes unitários?](#o-que-são-testes-unitários)
 3. [Boas práticas](#boas-práticas)
 
-## Testes unitários para salvar sua vida - Parte 1
+## Testes unitários para salvar sua vida
 
 Pular os testes unitários é igual pular o dia de pernas na academia. Você pode até achar que está indo bem, mas no fundo sabe que está fazendo algo errado.
 A verdade é que os testes unitários são uma parte essencial do desenvolvimento de software. Eles garantem que o código funcione como esperado, ajudam a identificar bugs e facilitam a manutenção do código a longo prazo.
@@ -31,7 +30,7 @@ O teste unitário garante a confiabilidade específica de um componente do seu s
 3. **Testes de funções exportadas**: Os testes devem ser escritos no arquivo `filename_test.go` e devem estar dentro do pacote `{package}_test`. Isso garante que as funções exportadas sejam testadas corretamente e chamamos de black box testing.
 4. **Testes de funções não exportadas**: Os testes devem ser escritos no arquivo `filename_internal_test.go` e devem estar dentro do mesmo pacote `{package}`. Isso garante que as funções não exportadas sejam testadas de forma separada.
 5. **Crie cenários de sucesso e falha**: Escreva testes para cenários de sucesso e falha, mas explore mais os cenário de falha.
-6. **Return struct, accept interface**: Ao escrever funções, retorne uma estrutura de dados e aceite interfaces como parâmetros. Isso facilita a criação de mocks e testes mais flexíveis. Evite criar interfaces muito genéricas e complexas, pois isso pode dificultar a compreensão e manutenção do código.
+6. **Return struct, accept interface**: Ao escrever funções, retorne uma estrutura de dados e aceite interfaces como parâmetros. Isso facilita a criação de mocks e testes mais flexíveis. Evite criar interfaces muito genéricas e complexas, pois isso pode dificultar a compreensão e manutenção do código, além de tornar a criação de mocks mais difícil.
 
 <a name="nodejs"></a>**Node.js:**
 
@@ -99,8 +98,7 @@ func TestClient_Games_BadRequest(t *testing.T) {
 }
 ```
 
-Deixo aqui uma sugestão de repositório com muitos testes unitários bem escritos que eu participo: [WakaTime CLI](https://github.com/wakatime/wakatime-cli).
+Deixo aqui uma sugestão de repositório com muitos testes unitários bem escritos: [WakaTime CLI](https://github.com/wakatime/wakatime-cli).
 [![codecov](https://codecov.io/gh/wakatime/wakatime-cli/branch/release/graph/badge.svg?token=9X1Q2Y3Z4W)](https://codecov.io/gh/wakatime/wakatime-cli)
 
-
-<!-- https://app.codecov.io/gh/wakatime/wakatime-cli -->
+Na segunda parte deste post, vamos abordar subtests e table driven tests, que são técnicas avançadas para escrever testes mais eficientes e organizados. Fique ligado!
