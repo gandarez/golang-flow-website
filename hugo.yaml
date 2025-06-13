@@ -23,6 +23,7 @@ params:
     author: 'gandarez'
     showPowerBy: false
     enableGoogleAnalytics: true
+    enableRSS: true
     social:
         github: https://github.com/gandarez
         linkedin: https://www.linkedin.com/in/gandarez

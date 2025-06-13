@@ -1,12 +1,11 @@
 +++
-date = '2025-06-10T18:24:58-03:00'
+date = '2025-06-10'
 draft = false
 title = 'Hello World'
 author = 'Carlos Henrique Guardão Gandarez'
 slug = 'hello-world'
 tags = ['golang', 'introdução']
 summary = 'Meu primeiro post no Golang Flow'
-translationKey = 'hello-world'
 +++
 
 Este é meu primeiro post no Golang Flow!
