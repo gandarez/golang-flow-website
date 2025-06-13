@@ -1,4 +1,5 @@
 +++
+draft = true
 date = '2025-06-13'
 title = 'Testes unitários para salvar sua vida - Parte 1'
 author = 'Carlos Henrique Guardão Gandarez'
