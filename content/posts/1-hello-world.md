@@ -6,6 +6,7 @@ author = 'Carlos Henrique Guardão Gandarez'
 slug = 'hello-world'
 tags = ['golang', 'introdução']
 summary = 'Meu primeiro post no Golang Flow'
+enableComments = false
 +++
 
 Este é meu primeiro post no Golang Flow!

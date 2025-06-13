@@ -24,6 +24,7 @@ params:
     showPowerBy: false
     enableGoogleAnalytics: true
     enableRSS: true
+    enableComments: true
     social:
         github: https://github.com/gandarez
         linkedin: https://www.linkedin.com/in/gandarez
