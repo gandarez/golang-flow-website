@@ -101,4 +101,4 @@ func TestClient_Games_BadRequest(t *testing.T) {
 Deixo aqui uma sugestão de repositório com muitos testes unitários bem escritos: [WakaTime CLI](https://github.com/wakatime/wakatime-cli).
 [![codecov](https://codecov.io/gh/wakatime/wakatime-cli/branch/release/graph/badge.svg?token=9X1Q2Y3Z4W)](https://codecov.io/gh/wakatime/wakatime-cli)
 
-Na segunda parte deste post, vamos abordar subtests e table driven tests, que são técnicas avançadas para escrever testes mais eficientes e organizados. Fique ligado!
+Na segunda parte deste post, vamos abordar subtests e table driven tests, que são técnicas avançadas para escrever testes mais eficientes e organizados. Parte 2 pode ser lida [aqui](/posts/teste-unitario-salva-vida-parte-2).

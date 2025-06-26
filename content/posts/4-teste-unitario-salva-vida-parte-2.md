@@ -144,4 +144,4 @@ func TestParseBoolOrRegexList(t *testing.T) {
 }
 ```
 
-Na terceira e última parte deste post, vamos abordar mocks de uma maneira simples e objetiva. Fique ligado!
+Na terceira e última parte deste post, vamos abordar mocks de uma maneira simples e objetiva. Parte 3 pode ser lida [aqui](/posts/teste-unitario-salva-vida-parte-3).
