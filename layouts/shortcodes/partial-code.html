@@ -1,0 +1,45 @@
+<style>
+.partial-code-container {
+  position: relative;
+  font-family: monospace;
+  margin-bottom: 1em;
+}
+
+.partial-code-container .code-wrapper {
+  max-height: 8em; /* Show ~5 lines */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.partial-code-container.expanded .code-wrapper {
+  max-height: 1000px;
+  overflow: auto;
+}
+
+.partial-code-container .toggle-btn {
+  display: inline-block;
+  margin-top: 0.5em;
+  cursor: pointer;
+  color: #007acc;
+  background: none;
+  border: none;
+  font-size: 0.9em;
+  padding: 0;
+}
+</style>
+
+<div class="partial-code-container" id="{{ .Get "id" }}">
+  <div class="code-wrapper">
+    {{ highlight ((.Inner | htmlUnescape) | replaceRE "^\\s*\n+" "" ) (.Get "lang" | default "text") "" }}
+  </div>
+  <button class="toggle-btn" onclick="toggleCode('{{ .Get "id" }}')">Show more</button>
+</div>
+
+<script>
+function toggleCode(id) {
+  const container = document.getElementById(id);
+  const btn = container.querySelector('.toggle-btn');
+  container.classList.toggle('expanded');
+  btn.textContent = container.classList.contains('expanded') ? 'Show less' : 'Show more';
+}
+</script>
