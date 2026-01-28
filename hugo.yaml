@@ -15,6 +15,7 @@ markup:
     noClasses: false
     style: rose-pine-dawn
     lineNos: true
+    lineNumbersInTable: false
 
 pagination:
     pagerSize: 5
