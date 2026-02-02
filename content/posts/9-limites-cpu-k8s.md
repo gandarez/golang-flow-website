@@ -257,3 +257,7 @@ Ainda assim, isso não elimina a necessidade de entendimento. Limites de CPU con
 
 Não é sobre confiar cegamente no runtime.
 É sobre entender como ele funciona e como o ambiente influencia suas escolhas.
+
+Aqui você pode assistir na íntegra a palestra onde apresentei esse conteúdo:
+
+[![Limites de CPU no k8s: Uma Ánalise para Aplicações em Go](https://img.youtube.com/vi/xIld3MATx74/maxresdefault.jpg)](https://youtu.be/xIld3MATx74?t=1143)
